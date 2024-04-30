@@ -10,8 +10,13 @@ function creaQuadrato(contenuto) {
 
 	let square = document.createElement("div");
 	square.classList.add("square");
+    square.innerText = contenuto;
 
 	
+	square.addEventListener("click", function() {
+	console.log("cliccato", this); 
+	this.classList.toggle("evidenzia");
+	});
 
 	return square;
 }
