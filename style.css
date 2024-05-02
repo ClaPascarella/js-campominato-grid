@@ -9,11 +9,22 @@ body {
     color: white;
 }
 
-#grid {
+.myflex {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
+}
+
+#grideasy {
     width: 800px;
+}
+
+#gridmedium {
+    width: 520px;
+}
+
+#gridhard {
+    width: 480px;
 }
 
 .square {
@@ -25,3 +36,4 @@ body {
 .evidenzia {
     background: red;
 }
+
